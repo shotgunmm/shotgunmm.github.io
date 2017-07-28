@@ -1,0 +1,817 @@
+header .navbar-main {
+  margin: 0;
+  padding: 40px 0px;
+  border-bottom: 1px solid #d6d6d6; }
+  header .navbar-main .navbar {
+    margin: 0px;
+    border: none; }
+    header .navbar-main .navbar .navbar-brand {
+      padding: 0px;
+      margin: 0px;
+      height: auto; }
+
+header .navbar-main .container {
+  display: table; }
+  header .navbar-main .container .navbar .collapse {
+    display: table-cell !important;
+    vertical-align: bottom; }
+    header .navbar-main .container .navbar .collapse .nav_list {
+      float: right;
+      margin: 0px; }
+      header .navbar-main .container .navbar .collapse .nav_list li {
+        display: inline-block;
+        padding: 0 0px 0 35px; }
+        @media (min-width: 1890px) {
+          header .navbar-main .container .navbar .collapse .nav_list li {
+            padding: 0 0px 0 26px; } }
+        header .navbar-main .container .navbar .collapse .nav_list li a {
+          font-size: 18px;
+          color: #5b6770;
+          font-family: 'Effra-Regular';
+          text-decoration: none;
+          list-style: none; }
+          @media (min-width: 1890px) {
+            header .navbar-main .container .navbar .collapse .nav_list li a {
+              font-size: 24px; } }
+
+footer {
+  background-color: #f2f8fc;
+  padding: 82px 0px 42px;
+  float: left;
+  width: 100%; }
+  footer .footer-contant h4 {
+    font-size: 20px;
+    color: #6b6f83;
+    font-family: 'museo500';
+    max-width: 80%;
+    line-height: 25px;
+    margin: 0px 0px 30px; }
+    @media only screen and (min-width: 2540px) {
+      footer .footer-contant h4 {
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 100%;
+        margin: 0px 0px 60px; } }
+  footer .footer-contant p {
+    color: #8895a6;
+    font-size: 16px;
+    font-family: 'museo_sans300';
+    margin: 0px;
+    max-width: 75%;
+    line-height: 22px; }
+    footer .footer-contant p a {
+      color: #8895a6;
+      text-decoration: none; }
+    @media only screen and (min-width: 2540px) {
+      footer .footer-contant p {
+        font-size: 32px;
+        max-width: 100%;
+        line-height: 44px; } }
+  footer .footer-contant .address {
+    width: 100%;
+    float: left;
+    margin: 30px 0px 0px; }
+    @media only screen and (min-width: 2540px) {
+      footer .footer-contant .address {
+        margin: 60px 0px 0px; } }
+    footer .footer-contant .address img {
+      margin: 0px 0px 15px; }
+      @media only screen and (min-width: 2540px) {
+        footer .footer-contant .address img {
+          margin: 0px 0px 30px; } }
+  footer .footer-contant .social {
+    width: 100%;
+    float: left;
+    margin: 30px 0px 15px; }
+    footer .footer-contant .social ul {
+      padding: 0px;
+      margin: 0px; }
+      footer .footer-contant .social ul li {
+        display: inline-block;
+        margin-right: 10px; }
+        footer .footer-contant .social ul li a {
+          background-color: #c4cad0;
+          border-radius: 50px;
+          color: #f2f8fc;
+          display: block;
+          font-size: 20px;
+          height: 34px;
+          text-align: center;
+          width: 34px;
+          line-height: 35px; }
+          footer .footer-contant .social ul li a:hover {
+            background-color: #76abcf; }
+  footer .footer-form {
+    width: 100%;
+    float: left; }
+    footer .footer-form h2 {
+      color: #6b6f83;
+      font-size: 25px;
+      font-family: 'museo500';
+      margin: 0px 0px 15px; }
+      @media only screen and (min-width: 2540px) {
+        footer .footer-form h2 {
+          font-size: 50px; } }
+    footer .footer-form form .form-group input {
+      height: 44px;
+      border: none;
+      border-radius: 0px;
+      box-shadow: none;
+      font-size: 14px;
+      color: #8895a6;
+      font-family: 'museo_sans300'; }
+      footer .footer-form form .form-group input::-webkit-input-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group input::-moz-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group input:-ms-input-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group input:-moz-placeholder {
+        color: #8895a6; }
+      @media only screen and (min-width: 2540px) {
+        footer .footer-form form .form-group input {
+          font-size: 22px; } }
+    footer .footer-form form .form-group textarea {
+      font-size: 14px;
+      color: #8895a6;
+      border: none;
+      border-radius: 0px;
+      box-shadow: none;
+      font-family: 'museo_sans300'; }
+      @media only screen and (min-width: 2540px) {
+        footer .footer-form form .form-group textarea {
+          font-size: 22px; } }
+      footer .footer-form form .form-group textarea::-webkit-input-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group textarea::-moz-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group textarea:-ms-input-placeholder {
+        color: #8895a6; }
+      footer .footer-form form .form-group textarea:-moz-placeholder {
+        color: #8895a6; }
+    footer .footer-form form .btn {
+      background-color: #5c7ca0;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 0px;
+      width: 150px;
+      height: 50px;
+      font-family: 'museo_sans700'; }
+      @media only screen and (min-width: 2540px) {
+        footer .footer-form form .btn {
+          font-size: 30px;
+          width: 230px;
+          height: 80px; } }
+
+@font-face {
+  font-family: 'effrabold';
+  src: url("../fonts/effra_std_bd-webfont.woff2") format("woff2"), url("../fonts/effra_std_bd-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'EffraLight-Regular';
+  src: url("../fonts/EffraLight-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/EffraLight-Regular.woff") format("woff"), url("../fonts/EffraLight-Regular.ttf") format("truetype"), url("../fonts/EffraLight-Regular.svg#EffraLight-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Effra-Regular';
+  src: url("../fonts/Effra-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Effra-Regular.woff") format("woff"), url("../fonts/Effra-Regular.ttf") format("truetype"), url("../fonts/Effra-Regular.svg#Effra-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans700';
+  src: url("../fonts/museo-sans-700-5948f3a978957-webfont.woff2") format("woff2"), url("../fonts/museo-sans-700-5948f3a978957-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans300';
+  src: url("../fonts/museo-sans-300-5948f3ce936d1-webfont.woff2") format("woff2"), url("../fonts/museo-sans-300-5948f3ce936d1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans100';
+  src: url("../fonts/museo-sans-100-5949f8721ce85-webfont.woff2") format("woff2"), url("../fonts/museo-sans-100-5949f8721ce85-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo500';
+  src: url("../fonts/museo_500-webfont.woff2") format("woff2"), url("../fonts/museo_500-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.banner {
+  background: url(../images/boy.png) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-position: 50% -15px; }
+  .banner .network h1 {
+    font-size: 68px;
+    font-family: 'museo_sans700';
+    color: #475057;
+    width: 45%; }
+  .banner .network p {
+    font-size: 18px;
+    font-family: 'museo_sans300';
+    color: #5b6770;
+    width: 40%;
+    margin: 40px 0;
+    line-height: 25px;
+    font-weight: 300; }
+  .banner .network a {
+    background: #5c7ca0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: 'museo_sans700'; }
+
+.management {
+  padding: 30px 0; }
+  .management .container .streamline {
+    max-width: 84%;
+    margin: 0 auto; }
+    @media only screen and (min-width: 2540px) {
+      .management .container .streamline {
+        max-width: 90%; } }
+    .management .container .streamline h4 {
+      padding-left: 20px;
+      font-family: 'museo500';
+      font-size: 16px;
+      line-height: 21px; }
+      @media only screen and (min-width: 2540px) {
+        .management .container .streamline h4 {
+          font-size: 18px;
+          line-height: 24px; } }
+      .management .container .streamline h4::before {
+        background: url("../images/checkmark.png") no-repeat;
+        content: "";
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 16px; }
+        @media only screen and (min-width: 2540px) {
+          .management .container .streamline h4::before {
+            width: 60px;
+            height: 60px;
+            top: 20px; } }
+
+.application {
+  background: #efefef;
+  text-align: center;
+  padding: 50px 0; }
+  .application h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #8895a6;
+    margin: 0; }
+  .application h2 {
+    font-size: 47px;
+    color: #475057;
+    margin: 0 0 20px; }
+  .application h3 {
+    font-size: 19px;
+    color: #686e73;
+    margin: 0; }
+  .application p {
+    font-size: 18px;
+    color: #5b6770;
+    width: 85%;
+    margin: 30px auto 20px;
+    line-height: 28px; }
+  .application .slider-carousel {
+    position: relative;
+    width: 100%; }
+    .application .slider-carousel .slider {
+      display: block;
+      float: left;
+      position: relative;
+      width: 100%; }
+      @media only screen and (min-width: 768px) {
+        .application .slider-carousel .slider {
+          padding: 0 100px; } }
+      @media only screen and (min-width: 768px) {
+        .application .slider-carousel .slider #carousel {
+          width: 100%;
+          height: 524px;
+          position: relative;
+          clear: both;
+          overflow: hidden;
+          margin: 0 auto; } }
+      .application .slider-carousel .slider #carousel img {
+        visibility: hidden;
+        cursor: pointer; }
+      .application .slider-carousel .slider #carousel .carousel-center {
+        box-shadow: 0px 0px 50px 10px #e5e5e5; }
+      .application .slider-carousel .slider a#prev img {
+        display: none; }
+        @media only screen and (min-width: 768px) {
+          .application .slider-carousel .slider a#prev img {
+            display: block;
+            left: 20px;
+            position: absolute;
+            top: 50%;
+            width: 26px;
+            z-index: 80; } }
+        @media only screen and (min-width: 1365px) {
+          .application .slider-carousel .slider a#prev img {
+            left: 100px; } }
+      .application .slider-carousel .slider a#next img {
+        display: none; }
+        @media only screen and (min-width: 768px) {
+          .application .slider-carousel .slider a#next img {
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            width: 26px;
+            z-index: 80; } }
+        @media only screen and (min-width: 1365px) {
+          .application .slider-carousel .slider a#next img {
+            right: 100px; } }
+      .application .slider-carousel .slider .mob-swipe {
+        display: block;
+        color: #c2c2c2;
+        margin: 15px 0 0;
+        text-align: center; }
+        @media only screen and (min-width: 768px) {
+          .application .slider-carousel .slider .mob-swipe {
+            display: none; } }
+      .application .slider-carousel .slider .mobil-friend-slider {
+        display: block;
+        float: left;
+        margin: 30px 0 20px;
+        width: 100%; }
+        @media only screen and (min-width: 768px) {
+          .application .slider-carousel .slider .mobil-friend-slider {
+            display: none; } }
+    .application .slider-carousel .owl-carousel.mobil-friend-slider .owl-item {
+      padding: 15px; }
+      .application .slider-carousel .owl-carousel.mobil-friend-slider .owl-item div {
+        pointer-events: none; }
+      @media only screen and (min-width: 768px) {
+        .application .slider-carousel .owl-carousel.mobil-friend-slider .owl-item {
+          pointer-events: all; } }
+      .application .slider-carousel .owl-carousel.mobil-friend-slider .owl-item.active.center {
+        padding: 0; }
+        .application .slider-carousel .owl-carousel.mobil-friend-slider .owl-item.active.center div {
+          pointer-events: all; }
+    .application .slider-carousel .owl-carousel .owl-item {
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      overflow: hidden; }
+    .application .slider-carousel .owl-carousel .owl-controls {
+      display: none; }
+  .application .management-two .manage {
+    margin: 0 auto; }
+    .application .management-two .manage .manage-one {
+      width: 20%;
+      float: left; }
+      .application .management-two .manage .manage-one h4 {
+        text-transform: capitalize;
+        font-family: 'museo_sans300';
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #afb3b7; }
+        @media only screen and (min-width: 2540px) {
+          .application .management-two .manage .manage-one h4 {
+            font-size: 30px;
+            line-height: 40px; } }
+        .application .management-two .manage .manage-one h4.active {
+          color: #475057; }
+    .application .management-two .manage button {
+      font-family: 'museo_sans300';
+      background: #5c7ca0;
+      border: 0 none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 12px 40px;
+      margin: 70px 0 20px 0; }
+      @media only screen and (min-width: 2540px) {
+        .application .management-two .manage button {
+          font-size: 26px;
+          padding: 18px 60px; } }
+
+.features {
+  padding: 100px 0 60px 0; }
+  .features .manage {
+    text-align: center; }
+    .features .manage h1 {
+      font-size: 14px;
+      font-family: 'Effra-Regular';
+      color: #8895a6;
+      line-height: 25px;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 2540px) {
+        .features .manage h1 {
+          font-size: 28px;
+          line-height: 50px; } }
+    .features .manage h2 {
+      font-family: 'Effra-Regular';
+      font-size: 20px;
+      color: #5b6770;
+      line-height: 25px; }
+      @media only screen and (min-width: 2540px) {
+        .features .manage h2 {
+          font-size: 40px;
+          line-height: 50px; } }
+    .features .manage img {
+      display: inherit;
+      margin: 0 auto; }
+    .features .manage .manage-one {
+      width: 20%;
+      float: left;
+      text-align: center;
+      padding: 60px 16px 0 16px; }
+      .features .manage .manage-one h1 {
+        font-family: 'museo_sans300';
+        font-size: 20px;
+        line-height: 25px;
+        color: #6b6f83;
+        font-weight: 600; }
+        @media only screen and (min-width: 2540px) {
+          .features .manage .manage-one h1 {
+            font-size: 30px;
+            line-height: 50px; } }
+      .features .manage .manage-one p {
+        font-size: 16px;
+        font-family: 'museo_sans300';
+        color: #848d94;
+        line-height: 20px; }
+        @media only screen and (min-width: 2540px) {
+          .features .manage .manage-one p {
+            font-size: 20px;
+            line-height: 20px; } }
+
+.results {
+  padding: 60px 0 0 0; }
+  .results .manage {
+    text-align: center; }
+    .results .manage h1 {
+      font-size: 14px;
+      font-family: 'Effra-Regular';
+      color: #8895a6;
+      line-height: 25px;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 2540px) {
+        .results .manage h1 {
+          font-size: 28px;
+          line-height: 50px; } }
+    .results .manage img {
+      display: inherit;
+      margin: 0 auto; }
+    .results .manage .manage-one {
+      width: 33.3333333%;
+      float: left;
+      text-align: center;
+      padding: 50px; }
+      .results .manage .manage-one h1 {
+        font-size: 34px;
+        font-family: 'Effra-Regular';
+        color: #475057;
+        line-height: 40px;
+        text-transform: inherit; }
+        @media only screen and (min-width: 2540px) {
+          .results .manage .manage-one h1 {
+            font-size: 28px;
+            line-height: 50px; } }
+      .results .manage .manage-one h6 {
+        font-family: 'museo_sans300';
+        font-size: 16px;
+        color: #5b6770;
+        line-height: 21px; }
+        @media only screen and (min-width: 2540px) {
+          .results .manage .manage-one h6 {
+            font-size: 40px;
+            line-height: 50px; } }
+      .results .manage .manage-one p a {
+        font-family: 'museo_sans300';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #8cc253; }
+
+.read-more {
+  text-align: center;
+  padding: 40px 0 0 0;
+  float: left;
+  width: 100%; }
+  .read-more h1 {
+    font-family: 'Effra-Regular';
+    font-size: 20px;
+    color: #6b6f83;
+    line-height: 25px; }
+  .read-more button {
+    font-family: 'museo_sans300';
+    background: #5c7ca0;
+    border: 0 none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 40px;
+    margin: 26px 0 70px 0; }
+
+.integration {
+  background: #f6f6f6;
+  padding: 100px 0 60px 0; }
+  .integration .manage {
+    text-align: center; }
+    .integration .manage h1 {
+      font-size: 14px;
+      font-family: 'Effra-Regular';
+      color: #8895a6;
+      line-height: 25px;
+      text-transform: uppercase; }
+      @media only screen and (min-width: 2540px) {
+        .integration .manage h1 {
+          font-size: 28px;
+          line-height: 50px; } }
+    .integration .manage h2 {
+      font-family: 'Effra-Regular';
+      font-size: 48px;
+      color: #475057;
+      margin: 0 0 20px;
+      line-height: 50px; }
+      @media only screen and (min-width: 2540px) {
+        .integration .manage h2 {
+          font-size: 70px;
+          line-height: 60px; } }
+    .integration .manage p {
+      font-size: 18px;
+      color: #5b6770;
+      max-width: 85%;
+      margin: 0 auto;
+      line-height: 28px;
+      font-family: 'Effra-Regular'; }
+      @media only screen and (min-width: 2540px) {
+        .integration .manage p {
+          max-width: 100%;
+          line-height: 40px;
+          font-size: 24px; } }
+    .integration .manage img {
+      display: inherit;
+      margin: 0 auto; }
+    .integration .manage .manage-one {
+      width: 20%;
+      float: left;
+      text-align: center;
+      padding: 60px 16px 0 16px; }
+      .integration .manage .manage-one h1 {
+        font-family: 'museo_sans300';
+        font-size: 20px;
+        line-height: 25px;
+        color: #6b6f83;
+        font-weight: 600; }
+        @media only screen and (min-width: 2540px) {
+          .integration .manage .manage-one h1 {
+            font-size: 30px;
+            line-height: 50px; } }
+      .integration .manage .manage-one p {
+        font-size: 16px;
+        font-family: 'museo_sans300';
+        color: #848d94;
+        line-height: 20px; }
+        @media only screen and (min-width: 2540px) {
+          .integration .manage .manage-one p {
+            font-size: 20px;
+            line-height: 20px; } }
+  .integration .logo-list {
+    text-align: center;
+    padding: 30px 0; }
+    .integration .logo-list img {
+      display: initial; }
+
+.about-banner {
+  background: url(../images/about-bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-position: center center; }
+  .about-banner .banner-contant {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto; }
+    .about-banner .banner-contant h2 {
+      color: #475057;
+      font-size: 50px;
+      margin: 0px 0px 20px;
+      line-height: 54px;
+      font-family: 'Effra-Regular'; }
+      @media only screen and (min-width: 2540px) {
+        .about-banner .banner-contant h2 {
+          font-size: 100px;
+          line-height: 108px; } }
+    .about-banner .banner-contant p {
+      font-family: 'museo_sans300';
+      color: #687178;
+      font-size: 18px;
+      max-width: 72%;
+      margin: 0 auto;
+      line-height: 26px; }
+      @media only screen and (min-width: 2540px) {
+        .about-banner .banner-contant p {
+          font-size: 28px;
+          max-width: 100%;
+          line-height: 52px; } }
+
+/*-----------------------about-scss--------------------------*/
+.about-banner {
+  background: url(../images/about-bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-position: center center; }
+  .about-banner .banner-contant {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto; }
+    .about-banner .banner-contant h2 {
+      color: #475057;
+      font-size: 50px;
+      margin: 0px 0px 20px;
+      line-height: 54px;
+      font-family: 'Effra-Regular'; }
+      @media only screen and (min-width: 2540px) {
+        .about-banner .banner-contant h2 {
+          font-size: 100px;
+          line-height: 108px; } }
+    .about-banner .banner-contant p {
+      font-family: 'museo_sans300';
+      color: #687178;
+      font-size: 18px;
+      max-width: 72%;
+      margin: 0 auto;
+      line-height: 26px; }
+      @media only screen and (min-width: 2540px) {
+        .about-banner .banner-contant p {
+          font-size: 28px;
+          max-width: 100%;
+          line-height: 52px; } }
+
+.the-team {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding: 80px 0px 100px; }
+  .the-team .team-inner {
+    width: 100%;
+    float: left; }
+    .the-team .team-inner .head {
+      text-align: center;
+      margin: 0 auto; }
+      .the-team .team-inner .head h1 {
+        color: #8895a6;
+        font-size: 14px;
+        margin: 0;
+        text-transform: uppercase; }
+        @media only screen and (min-width: 2540px) {
+          .the-team .team-inner .head h1 {
+            font-size: 28px; } }
+      .the-team .team-inner .head h3 {
+        color: #475057;
+        font-size: 40px;
+        font-family: 'museo_sans700';
+        margin: 10px 0px; }
+        @media only screen and (min-width: 2540px) {
+          .the-team .team-inner .head h3 {
+            font-size: 80px; } }
+      .the-team .team-inner .head p {
+        color: #687178;
+        font-size: 18px;
+        font-family: 'museo_sans300';
+        margin: 30px auto 0px;
+        max-width: 75%; }
+        @media only screen and (min-width: 2540px) {
+          .the-team .team-inner .head p {
+            max-width: 100%; } }
+    .the-team .team-inner .team {
+      width: 100%;
+      float: left; }
+      .the-team .team-inner .team .gallery {
+        margin: 70px auto;
+        max-width: 80%;
+        width: 100%; }
+        .the-team .team-inner .team .gallery .mabers {
+          margin: 0 auto;
+          text-align: center;
+          position: relative; }
+          .the-team .team-inner .team .gallery .mabers img {
+            width: 100%; }
+          .the-team .team-inner .team .gallery .mabers .sdfm-overlay {
+            background-color: rgba(232, 243, 247, 0.8);
+            position: absolute;
+            top: 0px;
+            display: none;
+            transition: all 250ms ease 0s;
+            text-align: center;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transform: scale(1, 1); }
+            .the-team .team-inner .team .gallery .mabers .sdfm-overlay span {
+              margin: 0 auto;
+              padding: 0;
+              position: relative;
+              text-transform: uppercase;
+              top: 42%;
+              width: auto;
+              color: #6b6f83; }
+              .the-team .team-inner .team .gallery .mabers .sdfm-overlay span img {
+                width: auto; }
+          .the-team .team-inner .team .gallery .mabers:hover .sdfm-overlay {
+            display: block; }
+        .the-team .team-inner .team .gallery .team-contant {
+          text-align: center;
+          margin: 20px auto 0px; }
+          .the-team .team-inner .team .gallery .team-contant h2 {
+            color: #6b6f83;
+            font-size: 20px;
+            margin: 0px;
+            font-family: 'Effra-Regular'; }
+            @media only screen and (min-width: 2540px) {
+              .the-team .team-inner .team .gallery .team-contant h2 {
+                font-size: 40px; } }
+          .the-team .team-inner .team .gallery .team-contant h3 {
+            color: #76abcf;
+            font-size: 14px;
+            font-family: 'museo_sans700';
+            margin: 10px 0px 0px; }
+            @media only screen and (min-width: 2540px) {
+              .the-team .team-inner .team .gallery .team-contant h3 {
+                font-size: 28px; } }
+    .the-team .team-inner .story {
+      width: 100%;
+      float: left; }
+      .the-team .team-inner .story .story-inner {
+        border-top: 2px solid #ebecee;
+        margin: 0px auto;
+        max-width: 80%;
+        padding-top: 80px; }
+        .the-team .team-inner .story .story-inner p {
+          max-width: 100%; }
+
+.company-news {
+  width: 100%;
+  float: left;
+  background: url(../images/news-bg.png) no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  background-position: center center; }
+  .company-news .news-inner {
+    margin: 0px auto;
+    max-width: 80%;
+    width: 100%; }
+    .company-news .news-inner .head {
+      text-align: center;
+      margin: 0 auto; }
+      .company-news .news-inner .head h1 {
+        color: #8895a6;
+        font-size: 14px;
+        margin: 0;
+        text-transform: uppercase; }
+        @media only screen and (min-width: 2540px) {
+          .company-news .news-inner .head h1 {
+            font-size: 28px; } }
+    .company-news .news-inner .row {
+      margin-top: 20px;
+      display: flex; }
+      .company-news .news-inner .row .post-one {
+        background: #fff;
+        margin: 8px; }
+      .company-news .news-inner .row .post {
+        width: 100%;
+        float: left;
+        padding: 35px 30px;
+        text-align: center; }
+        .company-news .news-inner .row .post h3 {
+          color: #6b6f83;
+          margin: 0px;
+          font-family: 'Effra-Regular';
+          font-size: 32px; }
+        .company-news .news-inner .row .post p {
+          color: #8895a6;
+          font-size: 16px;
+          margin: 20px 0px 0px;
+          font-family: 'museo_sans300'; }
+          .company-news .news-inner .row .post p span {
+            width: 100%;
+            float: left;
+            font-family: 'museo500'; }
+        .company-news .news-inner .row .post a {
+          color: #ff6a13;
+          font-size: 14px;
+          text-decoration: none;
+          display: block;
+          margin-top: 20px;
+          font-family: 'museo500'; }
+
+/*# sourceMappingURL=base.css.map */

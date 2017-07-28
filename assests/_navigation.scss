@@ -1,0 +1,51 @@
+header {
+    .navbar-main {
+        background-color:#000; 
+        .navbar {
+            .collapse {
+                padding:0px;
+                .nav_list {
+                    float: right;
+                    margin: 0px;
+                    padding:0px;
+                    li {
+                        display: inline-block;
+                        
+                        border-left: 1px solid #707070;
+                        float: left;   
+                        a {
+                            font-size: 13px;
+                            color: #ffffff;
+                            font-family: 'CabinBoldTTF';
+                            text-decoration: none;
+                            list-style: none;
+                            text-transform: uppercase;
+                            padding:25px 40px;
+                            display: block;
+                            letter-spacing: 2px;
+                            @media (min-width: $xldesktop) {
+                                font-size: 24px;
+                            }
+                        }
+
+                    }
+                }
+                .tickets{
+                    float: right;
+                    a{
+                        background-color:#be1923;
+                        padding:25px 60px;
+                        font-size: 13px;
+                        color: #ffffff;
+                        font-family: 'CabinMediumTTF';
+                        text-decoration: none;
+                        list-style: none;
+                        display: block;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+        }
+    }
+}
